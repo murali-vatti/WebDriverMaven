@@ -30,7 +30,7 @@ public class LoginTest {
 		
 		driver.get("https://flipkart.com");
 		driver.close();
-		
+		driver = new ChromeDriver();		
 		driver.get("https://amazon.in");
 		
 		
