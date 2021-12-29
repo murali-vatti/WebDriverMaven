@@ -32,6 +32,8 @@ public class LoginTest {
 		driver.close();
 		driver = new ChromeDriver();		
 		driver.get("https://amazon.in");
+		driver.manage().window().maximize();
+
 		
 		
 	}
