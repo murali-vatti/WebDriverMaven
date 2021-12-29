@@ -29,6 +29,9 @@ public class LoginTest {
 	public void openWebsite() {
 		
 		driver.get("https://flipkart.com");
+		driver.close();
+		
+		driver.get("https://amazon.in");
 		
 		
 	}
